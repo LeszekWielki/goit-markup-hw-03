@@ -31,7 +31,8 @@ body {
 
 .container {
   width: 1200px;
-  justify-content: center;
+  /* justify-content: center; */
+  margin: 0 auto;
 }
 
 button:hover,
@@ -55,18 +56,18 @@ a {
 }
 .secondary_header {
   height: 600px;
-  width: 1600px;
+  /* width: 1600px; */
 
   top: 80px;
+}
+.section_main {
   background-color: var(--background);
 }
-
 .nav {
   text-decoration: none;
   font-size: 26px;
   font-weight: 700;
   font-family: "raleway";
-  margin-left: 218px;
 }
 
 .agency {
@@ -85,6 +86,8 @@ a {
 .mail_head {
   color: #757575;
   letter-spacing: 2%;
+  padding-left: 371px;
+  padding-right: 50px;
 }
 
 .tel_head {
@@ -149,7 +152,7 @@ a {
 /* FOOTER LINE */
 .footer {
   background-color: var(--background);
-  padding: 60px 0 60px 215px;
+  padding: 60px 0;
 }
 
 .second_logo {
@@ -301,6 +304,11 @@ a {
 
 .portfolio_box {
   width: 370px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.caption {
+  padding: 20px 23px;
 }
 
 /* pozycjonowanie box-nawigacyjny  --> */
@@ -319,6 +327,9 @@ li .portfolio {
 .first_div {
   display: flex;
   align-items: center;
+}
+
+.header_box {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .navi_header {
@@ -342,16 +353,13 @@ li .portfolio {
 }
 
 .list {
-  align-items: flex-end;
+  justify-content: flex-end;
   display: flex;
   /* height: 18px; */
-  margin-right: 227px;
+  /* margin-right: 227px; */
   padding: 0;
 }
-.mail_head {
-  padding-right: 50px;
-  padding-left: 371px;
-}
+/* .mail_head {
 
 /* li .item {
   height: 18px;
@@ -366,8 +374,8 @@ header .first_div {
   display: block;
   text-align: center;
   justify-content: center;
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px; */
+  /* height: 600px; */
   padding-top: 200px;
 }
 
@@ -418,5 +426,5 @@ header .first_div {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-bottom: 94px;
 }
