@@ -5,7 +5,6 @@
 }
 
 body {
-  width: 1600px;
   padding: 0;
   margin: 0;
   font-family: "Roboto";
@@ -31,7 +30,6 @@ body {
 
 .container {
   width: 1200px;
-  /* justify-content: center; */
   margin: 0 auto;
 }
 
@@ -55,9 +53,6 @@ a {
   color: black;
 }
 .secondary_header {
-  height: 600px;
-  /* width: 1600px; */
-
   top: 80px;
 }
 .section_main {
@@ -119,8 +114,6 @@ a {
 
 .background_crew {
   background-color: var(--background2);
-  width: 1600px;
-  height: 648px;
 }
 
 .crew_img {
@@ -130,12 +123,12 @@ a {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   width: 270px;
   height: 368px;
+  margin-bottom: 94px;
 }
 
 .crew_img figcaption {
   margin-top: 30px;
   margin-bottom: 30px;
-  /* border: 1px dotted red; */
 }
 
 .h2 {
@@ -209,38 +202,6 @@ a {
   width: 200px;
   height: 50px;
 }
-
-/* .button2 {
-  font-size: 16px;
-  background-color: var(--background_buttons);
-  border-radius: 4px;
-  border-style: none;
-  font-weight: 500;
-}
-
-.button3 {
-  font-size: 16px;
-  background-color: var(--background_buttons);
-  border-radius: 4px;
-  border-style: none;
-  font-weight: 500;
-}
-
-.button4 {
-  font-size: 16px;
-  background-color: var(--background_buttons);
-  border-radius: 4px;
-  border-style: none;
-  font-weight: 500;
-}
-
-.button5 {
-  font-size: 16px;
-  background-color: var(--background_buttons);
-  border-radius: 4px;
-  border-style: none;
-  font-weight: 500;
-} */
 
 .lorem_list h4 {
   font: size 14px;
@@ -347,7 +308,6 @@ li .portfolio {
 }
 
 .list_header {
-  /* height: 18px; */
   padding: 0;
   margin: 0;
 }
@@ -355,16 +315,8 @@ li .portfolio {
 .list {
   justify-content: flex-end;
   display: flex;
-  /* height: 18px; */
-  /* margin-right: 227px; */
   padding: 0;
 }
-/* .mail_head {
-
-/* li .item {
-  height: 18px;
-  margin: 0;
-} */
 
 header .first_div {
   height: 80px;
@@ -374,19 +326,14 @@ header .first_div {
   display: block;
   text-align: center;
   justify-content: center;
-  /* width: 1600px; */
-  /* height: 600px; */
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .head_heading {
-  height: 120px;
   width: 696px;
   margin: 0 auto;
 }
-/* :nth-last-child(.list_header) .list_header a {
-  margin: 0 30px;
-} */
 
 .lorem_box {
   max-width: 270px;
